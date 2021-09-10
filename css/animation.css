@@ -1,0 +1,108 @@
+.bounce-1{
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+}
+
+@keyframes bounce-1{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.bounce-2{
+    animation-name: bounce-2;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+@keyframes bounce-2{
+    0%{
+        transform: translateY(-10px);
+    }
+
+    50%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+/* Signal */
+
+.blink{
+    animation-name: blink;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+/* Collaboration Redefined */
+
+.swipe-1{
+    animation-name: swipe-1;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+    transform-origin: left;
+}
+
+@keyframes swipe-1{
+    0%{
+        transform: translateX(-500px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.swipe-2{
+    animation-name: swipe-2;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+    transform-origin: right;
+}
+
+@keyframes swipe-2{
+    0%{
+        transform: translateX(500px);
+    }
+    50%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
